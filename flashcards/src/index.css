@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#E3FEF7;
+}
+
+.main-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50vh;
+  width: 40vh;
+}
+
+header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003C43;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  font-size: 4rem;
+}
+
+section {
+  background-color: #77B0AA;
+  width: 100%;
+  height: 70%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-holder {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.card {
+  background-color: #003C43;
+  color: white;
+  font-family: 'Indie Flower', cursive; 
+  width: 30%;
+  height: 40%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
